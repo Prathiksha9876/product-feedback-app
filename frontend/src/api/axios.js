@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: 'https://product-feedback-app-1-fgie.onrender.com',
+  baseURL: 'https://product-feedback-app-frontend-po90.onrender.com',
 });
 
 api.interceptors.request.use(
